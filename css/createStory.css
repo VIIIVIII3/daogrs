@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+
+/*desktop*/
+
+@media screen and (min-width: 769px) {
+    .hero {
+        margin-bottom: 140px;
+    }
+    .story {
+        text-align: center;
+        margin-bottom: 390px;
+    }
+    .story .story-content {
+        position: relative;
+    }
+    .story .story-content .story-description {
+        width: 505px;
+        padding: 75px;
+        background-color: rgb(39, 39, 39);
+        position: absolute;
+        bottom: -160px;
+        right: 50px;
+        text-align: left;
+    }
+    .story .story-content .story-description p {
+        color: #ffffff;
+        padding-top: 25px;
+    }
+
+    .life {
+        width: 1200px;
+        margin-bottom: 260px;
+    }
+    .life h3 {
+        margin-bottom: 80px;
+    }
+    .life .life-contents {
+        margin-top: 20px;
+    }
+    .life .life-contents::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    .life .life-contents .life-content {
+        float: left;
+        width: 355px;
+        margin-right: 20px;
+        position: relative;
+    }
+    .life .life-contents .life-content .life-description {
+        height: 358px;
+        background-color: rgb(39, 39, 39);
+        position: absolute;
+        top: -145px;
+        padding: 65px 50px;
+    }
+    .life .life-contents .life-content .life-description p {
+        color: #fff;
+        padding-top: 25px;
+        padding-right: 21px;
+    }
+    .nenver-end {
+        padding-bottom: 90px;
+    }
+    .nenver-end h3 {
+        margin-bottom: 50px;
+    }
+    .nenver-end .nenver-container p {
+        text-align: left;
+        padding: 0 265px;
+        margin-bottom: 50px;
+    }
+    .nenver-end .nenver-container img.nenver-bigImg {
+        margin-top: 133px;
+        margin-right: 20px;
+    }
+}
+
+/*mobile*/
+
+@media screen and (max-width: 768px) {
+    .story .story-content,.life .life-container,.nenver-end .nenver-container{
+    	padding: 0 10px;
+    }
+    .story,.life{
+    	margin-bottom: 55px;
+    }
+    .nenver-end{
+    	padding-bottom: 30px;
+    }
+    .hero{
+    	margin-bottom: 50px;
+    }
+    .story .story-title{
+    	margin-bottom: 25px;
+    }
+    .life img,.nenver-end img{
+    	margin-bottom: 20px;
+    }
+    .nenver-end .nenver-bigImg{
+    	margin-top: 20px;
+    }
+}

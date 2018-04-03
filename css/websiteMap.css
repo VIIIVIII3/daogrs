@@ -1,0 +1,65 @@
+@charset 'utf-8';
+.websiteMap-container .menu-list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.websiteMap-container .menu-list ul li {
+    padding-bottom: 3px;
+}
+.websiteMap-container .menu-list ul li a {
+    color: #545454;
+}
+
+.websiteMap-container .menu-list ul li:first-child {
+    border-bottom: 1px solid #c2c2c2;
+    margin-bottom: 25px;
+    padding-bottom: 0;
+    line-height: 2;
+}
+
+@media screen and (min-width: 769px) {
+    .websiteMap {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+    .websiteMap-container {
+        padding-bottom: 300px;
+    }
+    .websiteMap-container .menu-list {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .websiteMap-container .menu-list ul {
+        width: 60px;
+        float: left;
+        margin-right: 150px;
+        padding-top: 20px;
+    }
+    .websiteMap-container .menu-list ul:last-child {
+        margin-right: 0;
+    }
+    .websiteMap-container .menu-list ul li:hover a {
+        color: #999;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	.websiteMap-title{
+		margin-top: 100px;
+		margin-bottom: 50px;
+	}
+	.websiteMap-container .menu-list{
+		padding-bottom: 50px;
+	}
+    .websiteMap-container .menu-list ul {
+        float: left;
+        width: 50%;
+    }
+    .websiteMap-container .menu-list ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

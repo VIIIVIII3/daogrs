@@ -1,0 +1,117 @@
+@charset 'utf-8';
+
+/*desktop*/
+@media screen and (min-width: 769px) {
+    .philosophy {
+        margin-bottom: 180px;
+    }
+    .philosophy .philosophy-title {
+        margin-top: 130px;
+        margin-bottom: 70px;
+    }
+    .philosophy .philosophy-content {
+        position: relative;
+    }
+    .philosophy .philosophy-content .philosophy-description-block {
+        width: 230px;
+        position: absolute;
+        top: 225px;
+        left: 100px;
+    }
+    .philosophy .philosophy-content .philosophy-description-block .line {
+        width: 100%;
+    }
+    .philosophy .philosophy-content .philosophy-description-block .container-box-description {
+        color: #fff;
+        padding-top: 50px;
+    }
+    .simplicity {
+        margin-bottom: 240px;
+    }
+    .simplicity .simplicity-contnet {
+        position: relative;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .simplicity .simplicity-contnet .simplicity-des-block {
+        width: 740px;
+        background-color: rgb(39, 39, 39);
+        margin: 0 auto;
+        position: absolute;
+        bottom: -70px;
+        left: 230px;
+    }
+    .simplicity .simplicity-contnet .simplicity-des-block p {
+        color: #fff;
+        padding: 55px 70px;
+    }
+    .easier {
+        margin-bottom: 660px;
+    }
+    .easier .easier-content {
+        position: relative;
+    }
+    .easier .container-box-description {
+        width: 435px;
+        background-color: rgb(153, 153, 153);
+        color: #fff;
+        text-align: left;
+        margin-top: 40px;
+        padding: 55px 210px 120px 120px;
+    }
+    .easier .imgcontainer {
+        position: absolute;
+        top: 125px;
+    }
+    .easier .imgcontainer img:nth-child(1) {
+        margin-top: 60px;
+    }
+    .easier .imgcontainer img:nth-child(2) {
+        margin-top: 120px;
+    }
+    .leave-sapce.container-box .container-box-line-title h2 {
+        width: 492px;
+        margin-left: -246px;
+    }
+    .leave-sapce .container-box-description {
+        width: 755px;
+        margin: 0 auto;
+        margin-top: 44px;
+        padding-bottom: 155px;
+    }
+}
+
+/*mobile*/
+@media screen and (max-width: 768px) {
+    .hero {
+        margin-bottom: 50px;
+    }
+    .container-box-description {
+        padding: 0 10px;
+    }
+    .philosophy .container-box-description,
+    .simplicity .container-box-description {
+        margin-top: 25px;
+        margin-bottom: 75px;
+    }
+    .easier .container-box-description {
+        margin-bottom: 25px;
+    }
+    .leave-sapce .container-box-description {
+        margin-top: 25px;
+        padding-bottom: 50px;
+    }
+    .easier .imgcontainer {
+        padding: 0 10px;
+    }
+    .easier .imgcontainer img {
+        padding-bottom: 20px;
+    }
+    .easier {
+        margin-bottom: 50px;
+    }
+    .leave-sapce.container-box .container-box-line-title h2 {
+        width: 300px;
+        margin-left: -150px;
+    }
+}

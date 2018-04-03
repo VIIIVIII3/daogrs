@@ -1,0 +1,93 @@
+@charset 'utf-8';
+.kitchenArt-box .kitchenArt-box-description p,
+.kitchenArt-box .KAitem-description {
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+}
+
+@media screen and (min-width: 769px) {
+    .kitchenArt .kitchenArt-title {
+        margin-top: 140px;
+        margin-bottom: 20px;
+    }
+    .container-box .container-box-line-title h2 {
+        width: 450px;
+        margin-left: -225px;
+    }
+    .kitchenArt-box .kitchenArt-box-description {
+        width: 720px;
+        margin: 17px auto 34px auto;
+    }
+    .kitchenArt-box .kitchenArt-box-description p {
+        padding: 72px;
+    }
+    .kitchenArt-box .KAitem {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        max-width: 1084px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    .kitchenArt-box .KAitem:nth-child(2n+1) {
+        flex-direction: row-reverse;
+    }
+    .kitchenArt-box .KAitem:last-child {
+        margin-bottom: 0;
+        padding-bottom: 80px;
+    }
+    .kitchenArt-box .KAitem-description,
+    .kitchenArt-box .KAitem-img {
+        width: 50%;
+        max-width: 542px;
+        overflow: hidden;
+    }
+    .kitchenArt-box .KAitem-img img {
+        transition: all .75s ease;
+    }
+    .kitchenArt-box .KAitem-img:hover img {
+        transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2, 1.2);
+        /* Safari 和 Chrome */
+        -o-transform: scale(1.2, 1.2);
+        /* Opera */
+        -moz-transform: scale(1.2, 1.2);
+        /* Firefox */
+    }
+    .kitchenArt-box .KAitem-description .KAitem-description-copy {
+        padding: 400px 35px 0 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .kitchenArt .kitchenArt-title {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .container-box .container-box-title h3 {
+        font-size: 12px;
+    }
+    .kitchenArt-box .kitchenArt-box-description {
+        margin: 0 10px;
+    }
+    .kitchenArt-box .kitchenArt-box-description p {
+        margin-top: 25px;
+        margin-bottom: 40px;
+        padding: 10px;
+        text-align: left;
+    }
+    .kitchenArt-box .KAitem {
+        margin-bottom: 25px;
+        padding: 0 10px;
+    }
+    .kitchenArt-box .KAitem:last-child {
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+    .kitchenArt-box .KAitem .KAitem-description-copy {
+        text-align: left;
+        padding: 20px;
+    }
+}

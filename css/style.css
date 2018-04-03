@@ -1,0 +1,771 @@
+@charset "utf-8";
+
+
+
+
+
+/*desktop*/
+
+@media screen and (min-width: 769px) {
+    /*index*/
+    .content-container-index {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .banner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        position: relative;
+    }
+    .banner img {
+        width: 100%;
+        max-width: 1920px;
+    }
+    .banner .loop .item a h1 {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        font-size: 58px;
+        top: 50%;
+        margin-top: -29px;
+        font-weight: bold;
+    }
+    .banner .loop .item a p {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        font-size: 31px;
+        top: 60%;
+        font-weight: 300;
+        margin-top: -10px;
+    }
+    .banner-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .subnav {
+        width: 100%;
+        background: #272727;
+    }
+    .subnav ul {
+        width: 1200px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .subnav::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .subnav ul li {
+        background: #313131;
+        width: 282px;
+        height: 61px;
+        color: #fff;
+        line-height: 61px;
+        text-align: center;
+        float: left;
+        margin: 30px 24px 30px 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .subnav ul li:last-child {
+        margin-right: 0;
+    }
+    .subnav ul li a {
+        color: #fff;
+        font-size: 18px;
+        vertical-align: middle;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .subnav ul li:hover {
+        color: #333;
+        background: #fff;
+    }
+    .subnav ul li:hover a {
+        color: #333;
+    }
+    .subnav ul li:nth-child(1) a {
+        padding-left: 45px;
+        background: url(../images/icon01.png) no-repeat 0 0;
+    }
+    .subnav ul li:nth-child(2) a {
+        padding-left: 50px;
+        background: url(../images/icon02.png) no-repeat 0 0;
+    }
+    .subnav ul li:nth-child(3) a {
+        padding-left: 45px;
+        background: url(../images/icon03.png) no-repeat 0 0;
+    }
+    .subnav ul li:nth-child(4) a {
+        padding-left: 40px;
+        background: url(../images/icon04.png) no-repeat 0 0;
+    }
+    .sub-Box {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .black-br {
+        width: 932px;
+        height: 218px;
+        padding-top: 44px;
+        margin: 137px auto 150px;
+        background: #000;
+    }
+    .blank-hr {
+        width: 355px;
+        height: 3px;
+        margin: 0 auto;
+        background: #fff;
+    }
+    .black-br h1 {
+        font-size: 44px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 46px;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Arial";
+    }
+    .black-br p {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .black-br p span {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+        padding: 0 25px;
+    }
+    .daogrs-origin {
+        width: 100%;
+        height: 400px;
+        background: url(../images/italy-daogrs.png) no-repeat 0 0;
+    }
+    .daogrs-origin h1 {
+        font-size: 38px;
+        font-weight: bold;
+        color: #000;
+        line-height: 48px;
+        vertical-align: middle;
+        padding-top: 240px;
+        padding-left: 55px;
+        margin-bottom: 15px;
+    }
+    .daogrs-origin p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 55px;
+        color: #545454;
+    }
+    .daogrs-origin a {
+        position: absolute;
+        display: inline-block;
+        width: 162px;
+        padding: 0 30px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 16px;
+        color: #fff;
+        background: #000;
+        margin-left: 60px;
+        margin-top: 1px;
+        font-weight: lighter;
+    }
+    .daogrs-origin a span {
+        display: inline-block;
+        float: left;
+        -webkit-transition: margin .5s ease;
+        -moz-transition: margin .5s ease;
+        transition: margin .5s ease;
+    }
+    .daogrs-origin a:hover span:nth-child(1) {
+        margin: 0 0 0 20px;
+    }
+    .daogrs-origin a:hover span:nth-child(2) {
+        margin: 0 20px 0 0;
+    }
+    .daogrs-origin a span:nth-child(1) {
+        margin: 0;
+    }
+    .daogrs-origin a span:nth-child(2) {
+        height: 46px;
+        width: 40px;
+        position: relative;
+        margin: 0;
+        float: right;
+    }
+    .daogrs-origin a span:nth-child(2):before {
+        content: '';
+        height: 9px;
+        width: 0px;
+        display: block;
+        border: 2px solid #fff;
+        border-left-width: 0;
+        border-top-width: 0;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+    .daogrs-origin a span:nth-child(2):after {
+        content: '';
+        height: 2px;
+        width: 20px;
+        display: block;
+        background: #fff;
+        position: absolute;
+        top: 28px;
+        left: 19px;
+    }
+    .daogrs-kitchen {
+        width: 100%;
+        height: 622px;
+        background: #fff;
+        margin-top: 120px;
+        padding-top: 100px;
+        position: relative;
+        text-align: center;
+    }
+    .daogrs-kitchen h1 {
+        font-size: 32px;
+        color: #000;
+        text-align: center;
+        width: 216px;
+        position: absolute;
+        top: 77px;
+        background: #fff;
+        left: 50%;
+        font-weight: bold;
+        margin-left: -108px;
+    }
+    .daogrs-kitchen .black-hr {
+        width: 927px;
+        height: 3px;
+        margin: 0 auto 111px;
+        background: #000;
+    }
+    .daogrs-kitchen .kitchen-img {
+        width: 100%;
+        position: relative;
+    }
+    .daogrs-kitchen .kitchen-img .img-box {
+        width: 50%;
+        max-width: 600px;
+        float: left;
+        position: relative;
+    }
+    .daogrs-kitchen .kitchen-img .img-box img:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        background: #000;
+        opacity: 0.45;
+        -webkit-transition: opacity 1s ease-in;
+        -moz-transition: opacity 1s ease-in;
+        transition: opacity 1s ease-in;
+    }
+    .daogrs-kitchen .kitchen-img .img-box:hover img:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+    .daogrs-kitchen .kitchen-img .img-box:hover img {
+        transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        /* IE 9 */
+        -webkit-transform: scale(1.1, 1.1);
+        /* Safari 和 Chrome */
+        -o-transform: scale(1.1, 1.1);
+        /* Opera */
+        -moz-transform: scale(1.1, 1.1);
+        /* Firefox */
+    }
+    .daogrs-kitchen .kitchen-img .img-box>div {
+        width: 100%;
+        max-width: 600px;
+        overflow: hidden;
+    }
+    .daogrs-kitchen .kitchen-img .img-box img {
+        width: 100%;
+        max-width: 600px;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
+    .daogrs-kitchen .kitchen-img .img-box span {
+        width: 406px;
+        height: 57px;
+        font-size: 24px;
+        line-height: 57px;
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        position: absolute;
+        bottom: -28px;
+        left: 50%;
+        margin-left: -203px;
+    }
+    .daogrs-kitchen .more-info {
+        margin-top: 85px;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 41px;
+        width: 190px;
+        height: 41px;
+        text-align: center;
+        border: 1px solid #000;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    .daogrs-kitchen .more-info:after {
+        content: "+";
+        padding-left: 5px;
+    }
+    .daogrs-kitchen .more-info:hover {
+        background: #000;
+        color: #fff;
+    }
+    .daogrs-help {
+        width: 100%;
+        height: 137px;
+        background: #fff;
+        margin: 60px auto 133px;
+    }
+    .daogrs-help .help-tip-box {
+        float: left;
+        width: 33.33333%;
+        height: 100%;
+    }
+    .daogrs-help .help-tip-box .help-tip {
+        border-right: 1px solid #cdcdcd;
+        padding: 40px 0;
+    }
+    .daogrs-help .help-tip-box:nth-child(1) .help-tip {
+        background: url("../images/icon05.png") no-repeat 47px 46px;
+    }
+    .daogrs-help .help-tip-box:nth-child(2) .help-tip {
+        background: url("../images/icon06.png") no-repeat 47px 46px;
+    }
+    .daogrs-help .help-tip-box:nth-child(3) .help-tip {
+        background: url("../images/icon07.png") no-repeat 47px 46px;
+        border-right: none;
+    }
+    .daogrs-help .help-tip-box .help-tip:before {
+        position: absolute;
+        content: "";
+        height: 57px;
+        width: 4px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+        background: #272727;
+    }
+    .daogrs-help .help-tip-box .help-tip h2 {
+        font-size: 24px;
+        color: #272727;
+        font-weight: bold;
+        padding-left: 120px;
+    }
+    .daogrs-help .help-tip-box .help-tip p {
+        font-size: 14px;
+        color: #9e9e9e;
+        padding-left: 120px;
+    }
+}
+
+
+
+
+
+
+
+/*mobile*/
+
+@media screen and (max-width: 768px) {
+    /*index*/
+    .content-container-index {
+        width: 100%;
+        margin: 65px auto 0;
+    }
+    .banner {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    .banner::before {
+        content: "";
+        width: 100%;
+        position: absolute;
+        opacity: 0.3;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .banner .loop .item a h1 {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        font-size: 24px;
+        top: 50%;
+        margin-top: -29px;
+        font-weight: bold;
+    }
+    .banner .loop .item a p {
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        top: 60%;
+        font-weight: 300;
+        margin-top: -10px;
+    }
+    .subnav {
+        width: 100%;
+        background: #272727;
+    }
+    .subnav ul {
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .subnav::after {
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .subnav ul li {
+        background: #313131;
+        height: 61px;
+        color: #fff;
+        line-height: 61px;
+        text-align: center;
+        margin: 20px 15px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .subnav ul li:last-child {}
+    .subnav ul li a {
+        color: #fff;
+        font-size: 18px;
+        vertical-align: middle;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+    .subnav ul li:hover {
+        color: #333;
+        background: #fff;
+    }
+    .subnav ul li:hover a {
+        color: #333;
+    }
+    .subnav ul li:nth-child(1) a {
+        padding-left: 45px;
+        background: url(../images/icon01.png) no-repeat 0 0;
+    }
+    .subnav ul li:nth-child(2) a {
+        padding-left: 50px;
+        background: url(../images/icon02.png) no-repeat 0 0;
+    }
+    .subnav ul li:nth-child(3) a {
+        padding-left: 45px;
+        background: url(../images/icon03.png) no-repeat 0 0;
+    }
+    .subnav ul li:nth-child(4) a {
+        padding-left: 40px;
+        background: url(../images/icon04.png) no-repeat 0 0;
+    }
+    .sub-Box {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .black-br {
+        width: 100%;
+        padding-top: 44px;
+        margin: 0 auto;
+        background: #000;
+    }
+    .blank-hr {
+        width: 100%;
+        height: 3px;
+        margin: 0 auto;
+        background: #fff;
+    }
+    .black-br h1 {
+        font-size: 26px;
+        margin-top: 30px;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 46px;
+        font-weight: 600;
+        text-align: center;
+        font-family: "Arial";
+    }
+    .black-br p {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .black-br p span {
+        color: #fff;
+        display: block;
+        text-align: center;
+        font-size: 30px;
+        padding: 0 15px 20px;
+    }
+    .daogrs-origin {
+        width: 100%;
+        background: url(../images/italy-daogrs-mobile.png) no-repeat 0px 0px;
+        -moz-background-size: 100%;
+        background-size: 100%;
+        margin-top: 20px;
+    }
+    .daogrs-origin h1 {
+        font-size: 38px;
+        font-weight: bold;
+        color: #000;
+        line-height: 48px;
+        vertical-align: middle;
+        padding-top: 150px;
+        padding-left: 55px;
+        margin-bottom: 15px;
+    }
+    .daogrs-origin p {
+        font-size: 16px;
+        line-height: 30px;
+        padding-left: 55px;
+        color: #545454;
+    }
+    .daogrs-origin a {
+        display: block;
+        width: 162px;
+        padding: 0 30px;
+        height: 46px;
+        line-height: 46px;
+        font-size: 16px;
+        color: #fff;
+        background: #000;
+        margin-top: 30px;
+        font-weight: lighter;
+    }
+    .daogrs-origin a span {
+        display: inline-block;
+        float: left;
+        -webkit-transition: margin .5s ease;
+        -moz-transition: margin .5s ease;
+        transition: margin .5s ease;
+    }
+    .daogrs-origin a:hover span:nth-child(1) {
+        margin: 0 0 0 20px;
+    }
+    .daogrs-origin a:hover span:nth-child(2) {
+        margin: 0 20px 0 0;
+    }
+    .daogrs-origin a span:nth-child(1) {
+        margin: 0;
+    }
+    .daogrs-origin a span:nth-child(2) {
+        height: 46px;
+        width: 40px;
+        position: relative;
+        margin: 0;
+        float: right;
+    }
+    .daogrs-origin a span:nth-child(2):before {
+        content: '';
+        height: 9px;
+        width: 0px;
+        display: block;
+        border: 2px solid #fff;
+        border-left-width: 0;
+        border-top-width: 0;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        position: absolute;
+        top: 20px;
+        right: 5px;
+    }
+    .daogrs-origin a span:nth-child(2):after {
+        content: '';
+        height: 2px;
+        width: 20px;
+        display: block;
+        background: #fff;
+        position: absolute;
+        top: 28px;
+        left: 19px;
+    }
+    .daogrs-kitchen {
+        width: 100%;
+        background: #fff;
+        margin-top: 60px;
+        padding-top: 100px;
+        position: relative;
+        text-align: center;
+    }
+    .daogrs-kitchen h1 {
+        font-size: 32px;
+        color: #000;
+        text-align: center;
+        width: 216px;
+        position: absolute;
+        top: 77px;
+        background: #fff;
+        left: 50%;
+        font-weight: bold;
+        margin-left: -108px;
+    }
+    .daogrs-kitchen .black-hr {
+        width: 100%;
+        height: 3px;
+        margin: 0 auto 60px;
+        background: #000;
+    }
+    .daogrs-kitchen .kitchen-img {
+        width: 100%;
+        position: relative;
+    }
+    .daogrs-kitchen .kitchen-img .img-box {
+        width: 100%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .daogrs-kitchen .kitchen-img .img-box:hover img {
+        transform: scale(1.1, 1.1);
+        -ms-transform: scale(1.1, 1.1);
+        /* IE 9 */
+        -webkit-transform: scale(1.1, 1.1);
+        /* Safari 和 Chrome */
+        -o-transform: scale(1.1, 1.1);
+        /* Opera */
+        -moz-transform: scale(1.1, 1.1);
+        /* Firefox */
+    }
+    .daogrs-kitchen .kitchen-img .img-box>div {
+        width: 100%;
+        max-width: 600px;
+        overflow: hidden;
+    }
+    .daogrs-kitchen .kitchen-img .img-box img {
+        width: 100%;
+        max-width: 600px;
+        -webkit-transition: all 1s ease-out;
+        -moz-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
+    .daogrs-kitchen .kitchen-img .img-box span {
+        width: 320px;
+        height: 57px;
+        font-size: 24px;
+        line-height: 57px;
+        display: inline-block;
+        color: #fff;
+        background: #000;
+        position: absolute;
+        bottom: -28px;
+        left: 50%;
+        margin-left: -160px;
+    }
+    .daogrs-kitchen .more-info {
+        margin: 20px auto 50px;
+        display: inline-block;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 41px;
+        width: 190px;
+        height: 41px;
+        text-align: center;
+        border: 1px solid #000;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    .daogrs-kitchen .more-info:after {
+        content: "+";
+        padding-left: 5px;
+    }
+    .daogrs-kitchen .more-info:hover {
+        background: #000;
+        color: #fff;
+    }
+    .daogrs-help {
+        width: 100%;
+        background: #fff;
+        margin: 0 auto;
+    }
+    .daogrs-help .help-tip-box {
+        width: 100%;
+        height: 100%;
+    }
+    .daogrs-help .help-tip-box .help-tip {
+        border: 1px solid #cdcdcd;
+        padding: 40px 0;
+        border-bottom: none;
+    }
+    .daogrs-help .help-tip-box:nth-child(1) .help-tip {
+        background: url("../images/icon05.png") no-repeat 47px 46px;
+    }
+    .daogrs-help .help-tip-box:nth-child(2) .help-tip {
+        background: url("../images/icon06.png") no-repeat 47px 46px;
+    }
+    .daogrs-help .help-tip-box:nth-child(3) .help-tip {
+        background: url("../images/icon07.png") no-repeat 47px 46px;
+        border-bottom: 1px solid #cdcdcd;
+    }
+    .daogrs-help .help-tip-box .help-tip:before {
+        position: absolute;
+        content: "";
+        height: 57px;
+        width: 4px;
+        -moz-border-radius-topright: 5px;
+        border-top-right-radius: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-bottom-right-radius: 5px;
+        background: #272727;
+    }
+    .daogrs-help .help-tip-box .help-tip h2 {
+        font-size: 24px;
+        color: #272727;
+        font-weight: bold;
+        padding-left: 120px;
+    }
+    .daogrs-help .help-tip-box .help-tip p {
+        font-size: 14px;
+        color: #9e9e9e;
+        padding-left: 120px;
+    }
+}

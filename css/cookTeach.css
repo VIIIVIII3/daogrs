@@ -1,0 +1,113 @@
+@charset 'utf-8';
+.btn-button {
+    display: inline-block;
+    text-align: center;
+    padding: 8px 14px;
+    transition: all 0.4s ease;
+}
+
+#cookTeach-items .cookTeach-item .cookTeach-item-des {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    padding: 10px 0;
+}
+.cookTeach-container .cookTeachDetail-item-title{
+    text-align: center;
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    padding: 10px 0;
+}
+@media screen and (min-width: 769px) {
+    .cookTeach .cookTeach-title {
+        margin-top: 140px;
+        margin-bottom: 20px;
+    }
+    .cookTeach-container .container-box-line-title {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .cookTeachDetail-container{
+        padding: 50px 0;
+    }
+    .container-box .container-box-line-title h2 {
+        width: 450px;
+        margin-left: -225px;
+    }
+    #cookTeach-items .cookTeach-items {
+        margin-bottom: 100px;
+    }
+    #cookTeach-items .cookTeach-items .cookTeach-item {
+        position: relative;
+        width: 50%;
+        float: left;
+        cursor: pointer;
+    }
+    #cookTeach-items .cookTeach-items::after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+    #cookTeach-items .cookTeach-item .cookTeach-item-img {
+        max-width: 600px;
+        overflow: hidden;
+    }
+    #cookTeach-items .cookTeach-item .cookTeach-item-img img {
+        transition: all .75s ease;
+    }
+    #cookTeach-items .cookTeach-item .cookTeach-item-img:hover img {
+        transform: scale(1.2, 1.2);
+        -ms-transform: scale(1.2, 1.2);
+        /* IE 9 */
+        -webkit-transform: scale(1.2, 1.2);
+        /* Safari 和 Chrome */
+        -o-transform: scale(1.2, 1.2);
+        /* Opera */
+        -moz-transform: scale(1.2, 1.2);
+        /* Firefox */
+    }
+    #cookTeach-items .cookTeach-item .cookTeach-item-des {
+        width: 60%;
+        left: 120px;
+        bottom: -20px;
+    }
+    #cookTeach-items .cookTeach-owl-control {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    #cookTeach-items .cookTeach-owl-control .btn-button {
+        padding: 3px 9px;
+        margin-right: 15px;
+    }
+    #cookTeach-items .cookTeach-owl-control .btn-button:hover {
+        color: #fff;
+        background-color: rgb(135, 135, 135);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cookTeach .cookTeach-title {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .container-box .container-box-title h3 {
+        font-size: 12px;
+    }
+    #cookTeach-items .cookTeach-items .cookTeach-item {
+        margin-bottom: 50px;
+        position: relative;
+    }
+    #cookTeach-items .cookTeach-item .cookTeach-item-des {
+        width: 300px;
+        left: 50%;
+        bottom: -20px;
+        margin-left: -150px;
+    }
+    #cookTeach-items .cookTeach-owl-control {
+        padding-bottom: 50px;
+    }
+    #cookTeach-items .cookTeach-owl-control .btn-button {
+        margin-right: 15px;
+    }
+}

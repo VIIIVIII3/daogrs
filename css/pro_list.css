@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+
+
+
+
+/*desktop*/
+
+@media screen and (min-width: 769px) {
+    /*produce list Page*/
+    .pro-list-section {
+        width: 100%;
+        margin: 60px auto 10px;
+    }
+    .pro-list-section h1 {
+        text-align: center;
+        color: #000;
+        line-height: 70px;
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .pro-list-section .pro-box {
+        float: left;
+        width: 285px;
+        height: 450px;
+        text-align: center;
+        background: #fff;
+        margin-right: 20px;
+        transition: all .4s ease;
+    }
+    .pro-list-section .pro-box:nth-child(5) {
+        margin-right: 0;
+    }
+    .pro-list-section .pro-box:hover {
+        box-shadow: 1px 1px 8px #545454;
+    }
+    .pro-list-section .pro-box img {
+        margin: 40px auto 30px;
+        max-width: 210px;
+    }
+    .pro-list-section .pro-box p {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 70px;
+    }
+    .pro-list-section .pro-box a {
+        width: 168px;
+        height: 42px;
+        border: 1px solid #1e1e1e;
+        display: inline-block;
+        line-height: 42px;
+        border-radius: 20px;
+        color: #000;
+        transition: all .4s ease;
+    }
+    .pro-list-section .pro-box a:hover {
+        color: #fff;
+        background: #000;
+    }
+}
+
+
+
+
+
+
+
+/*mobile*/
+
+@media screen and (max-width: 768px) {
+    /*produce list Page*/
+    .pro-list-section {
+        width: 100%;
+        margin: 60px auto 10px;
+        /* padding: 0 15px; */
+    }
+    .pro-list-section h1 {
+        text-align: center;
+        color: #000;
+        line-height: 70px;
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .pro-list-section .pro-box {
+        /* float: left; */
+        width: 300px;
+        height: 450px;
+        text-align: center;
+        background: #fff;
+        margin: 0 auto 10px;
+        transition: all .4s ease;
+    }
+    .pro-list-section .pro-box:nth-child(5) {
+        /* margin-right: 0; */
+    }
+    .pro-list-section .pro-box:hover {
+        box-shadow: 1px 1px 8px #545454;
+    }
+    .pro-list-section .pro-box img {
+        margin: 40px auto 30px;
+        max-width: 210px;
+    }
+    .pro-list-section .pro-box p {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 70px;
+    }
+    .pro-list-section .pro-box a {
+        width: 168px;
+        height: 42px;
+        border: 1px solid #1e1e1e;
+        display: inline-block;
+        line-height: 42px;
+        border-radius: 20px;
+        color: #000;
+        transition: all .4s ease;
+    }
+    .pro-list-section .pro-box a:hover {
+        color: #fff;
+        background: #000;
+    }
+}
